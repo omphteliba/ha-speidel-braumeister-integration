@@ -1,3 +1,5 @@
+![ha-speidel-braumeister_header](https://github.com/omphteliba/ha-speidel-braumeister-integration/assets/196336/d73c9fa6-7707-4b29-854f-4c4b46d62eab)
+
 # Speidel Braumeister Integration
 
 [![GitHub Release][releases-shield]][releases]
