@@ -5,6 +5,7 @@
 [![License][license-shield]](LICENSE)
 
 ![Project Maintenance][maintenance-shield]
+[![Community Forum][forum-shield]][forum]
 
 _This integration allows you to monitor your Speidel Braumeister brewing system within Home Assistant._
 
@@ -33,6 +34,19 @@ Platform | Description
 ## Contributions are welcome!
 
 If you want to contribute to this please read the [Contribution guidelines](CONTRIBUTING.md)
+
+## Requirements
+
+- A Speidel Braumeister brewing system
+- A Speidel account
+
+## Notes
+
+- This integration is under development. Please report any issues or feature requests on the GitHub repository.
+
+## References
+Speidel MyCloud API: https://api.cloud.myspeidel.com/v1.0/api-docs/
+
 
 ***
 

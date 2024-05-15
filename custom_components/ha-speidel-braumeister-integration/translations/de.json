@@ -1,0 +1,18 @@
+{
+    "config": {
+        "step": {
+            "user": {
+                "description": "Wenn Du Hilfe brauchst, dann schau hier nach: https://github.com/omphteliba/ha-speidel-braumeister-integration",
+                "data": {
+                    "username": "Username",
+                    "password": "Password"
+                }
+            }
+        },
+        "error": {
+            "auth": "Username/Password sind falsch.",
+            "connection": "Server nicht erreichbar.",
+            "unknown": "Ein unbekannter Fehler ist aufgetreten."
+        }
+    }
+}

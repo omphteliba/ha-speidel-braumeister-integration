@@ -6,7 +6,7 @@ https://github.com/omphteliba/ha-speidel-braumeister-integration
 from __future__ import annotations
 
 from homeassistant.config_entries import ConfigEntry
-from homeassistant.const import CONF_PASSWORD, CONF_USERNAME, Platform
+from homeassistant.const import CONF_CLIENT_ID, CONF_CLIENT_SECRET, CONF_USERNAME, Platform
 from homeassistant.core import HomeAssistant
 from homeassistant.helpers.aiohttp_client import async_get_clientsession
 
@@ -29,7 +29,8 @@ async def async_setup_entry(hass: HomeAssistant, entry: ConfigEntry) -> bool:
         hass=hass,
         client=SpeidelBraumeisterApiClient(
             username=entry.data[CONF_USERNAME],
-            password=entry.data[CONF_PASSWORD],
+            client_id=entry.data[CONF_CLIENT_ID],
+            client_secret=entry.data[CONF_CLIENT_SECRET],
             session=async_get_clientsession(hass),
         ),
     )
